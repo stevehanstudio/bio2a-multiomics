@@ -6,7 +6,7 @@ This project is part of the **BIO2A Bioinformatics class at Las Positas College 
 ## **Team Members**
 - **Steve Han**
 - **Jett Spitzer**
-- **Faranhnaz Moazezi**
+- **Farahnaz Moazezi**
 
 ## **Project Setup**
 
@@ -19,8 +19,8 @@ Ensure you have the following installed before proceeding:
 ### **Installation**
 #### **1. Clone the Repository**
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone git@github.com:stevehanstudio/bio2a-multiomics.git
+cd bio2a-multiomics
 ```
 
 #### **2. Create a Virtual Environment**
@@ -54,7 +54,7 @@ bio2a-multiomics/
 ```
 
 ## **Dataset**
-The dataset used in this project is located in the **`data/GSE126074`** folder. It contains **single-cell RNA-seq** and **single-cell ATAC-seq** data from the **GSE126074 study**.
+The dataset used in this project is obtained from the [NCBI Gene Expression Omnibus (GEO) GSE126074](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi) and located in the **`data/GSE126074`** folder. It contains **single-cell RNA-seq** and **single-cell ATAC-seq** data from the **GSE126074 study**.
 
 ### **Dataset Description**
 #### **scRNA-seq Data**
@@ -79,4 +79,14 @@ The **Jupyter Notebook (`analyze_gse126074.ipynb`)** includes the following step
 This project is licensed under the **MIT License**.
 
 ## **Acknowledgments**
-Special thanks to our **Dr. Kai Blaisdell** for guidance and support.
+Special thanks to our professor **Dr. Kai Blaisdell** for guidance and support.
+
+## **References**
+
+The paper by Xiao et al. (2024) discusses and benchmarks 12 different multi-omics integration algorithms for single-cell RNA-seq (scRNA-seq) and single-cell ATAC-seq (scATAC-seq) data. In this project, we utilized the multi-omics GSE126074 dataset referenced in their study.  The dataset was originally generated and published in paper by Chen et al (2019).
+
+Xiao, C., Chen, Y., Meng, Q., Wei, L., & Zhang, X. (2024). Benchmarking multi-omics integration algorithms across single-cell RNA and ATAC data. Briefings in Bioinformatics, 25(2), bbae095. [https://doi.org/10.1093/bib/bbae095](https://doi.org/10.1093/bib/bbae095)
+
+Chen S, Lake BB, Zhang K. (2019) High-throughput sequencing of the transcriptome and chromatin accessibility in the same cell. *Nature Biotechnolology*, 37,1452–1457. [https://doi.org/10.1038/s41587-019-0290-0](https://doi.org/10.1038/s41587-019-0290-0)
+
+
